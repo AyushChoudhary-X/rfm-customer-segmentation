@@ -104,13 +104,16 @@ During the pipeline execution, descriptive charts and exploratory data analysis 
 
 ## 🖥️ Web Dashboard
 A lightweight web-based dashboard is provided to explore the data using Chart.js.
-Note: It requires running a local server to properly load the processed CSV data files.
 
+**🌟 Live Demo:** [View the Dashboard on GitHub Pages](https://ayushchoudhary-x.github.io/rfm-customer-segmentation/)
+
+To run it locally instead:
 ```bash
-# Run from the project root
+# Run from the docs folder
+cd docs
 python -m http.server 8000
 
-# Visit http://localhost:8000/dashboard/
+# Visit http://localhost:8000/
 ```
 
 ## 📊 Power BI Dashboard
