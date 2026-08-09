@@ -1,0 +1,20 @@
+# Data files and databases
+data/raw/
+data/processed/
+database/
+*.db
+*.sqlite
+
+# Virtual environments
+venv/
+env/
+.env
+
+# MacOS
+.DS_Store
+
+# Images 
+# (You might want to commit images to show in README, so we won't ignore images/)
+
+# Ignore PowerBI caches
+*.pbix
