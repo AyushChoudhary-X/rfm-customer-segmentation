@@ -7,3 +7,4 @@ mysql-connector-python==9.1.0
 sqlalchemy==2.0.36
 pymysql==1.1.1
 jupyter==1.1.1
+scikit-learn==1.7.2
