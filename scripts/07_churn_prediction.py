@@ -49,7 +49,8 @@ def main():
         print(f"Churn Split: \n{churn_counts}")
         
         # 2. Define X (features) and y (target)
-        features = ['R_Score', 'F_Score', 'M_Score', 'Recency', 'Frequency', 'Monetary', 'RFM_Total']
+        # Removed 'Recency', 'R_Score', and 'RFM_Total' to prevent Target Leakage
+        features = ['F_Score', 'M_Score', 'Frequency', 'Monetary']
         X = df[features]
         y = df['Churned']
         
